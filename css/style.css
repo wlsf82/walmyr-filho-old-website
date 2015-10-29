@@ -14,10 +14,23 @@ html {
 	font-size: 20px;
 }
 body {
-	background-color: #ccc;
 	padding: 50px;
 	text-align: center;
 	font-family: manifestoregular;
+}
+
+div.background {
+  background: url('../images/walmyr.jpg');
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.5;
+
+  background-size: cover;
 }
 
 /* Wrapper */
