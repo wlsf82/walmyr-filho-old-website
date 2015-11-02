@@ -9,49 +9,43 @@ body {
 }
 
 .header {
-  text-align:center;
   padding:5px;
-  background-color: green;
-  color: white
+	position: fixed;
+  height: 120px;
+	left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+	background-color: #60CDD0;
 }
 
-
 #presentation {
-  padding: 10px;
-  height: 400px;
+	padding: 4%;
+	vertical-align: middle;
 }
 
 .services {
-  padding: 10px;
-  height: 500px;
+	background-color: #a2fdd1;
+	border-radius:10px;
 }
 
-.services #consultancy {
-  padding: 10px;
-  float: left;
-  width: 48%;
+.services div {
+  width:calc(90% / 3);
+  display:inline-block;
+	vertical-align: text-top;
 }
-.services #development {
+
+#speaches-and-events {
   padding: 10px;
-  float: right;
-  width: 48%;
 }
 
 #technologies {
   padding: 10px;
-  height: 200px;
-}
-
-h3 {
-  padding: 10px;
-}
-
-h4 {
-  padding: 5px;
 }
 
 .footer {
-  padding:10px;
-  background-color: green;
-  color: white
+	width: 100%;
+  padding: 20px;
+	background-color: #60CDD0;
+	border-radius:5px;
 }
