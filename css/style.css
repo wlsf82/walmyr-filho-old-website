@@ -3,10 +3,15 @@ html {
 }
 
 body {
-  font-family: "Comic Sans MS";
 	padding: 50px;
 	text-align: center;
 }
+
+@font-face {
+	font-family: "Amatic";
+	src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
 
 .header {
   padding:5px;
@@ -17,6 +22,13 @@ body {
   width: 100%;
   z-index: 100;
 	background-color: #60CDD0;
+	font-family: "Amatic";
+	font-size: 23px;
+}
+
+.content {
+	font-family: "Amatic";
+	font-size: 30px;
 }
 
 #presentation {
@@ -47,4 +59,6 @@ body {
   padding: 10px;
 	background-color: #60CDD0;
 	border-radius:5px;
+	font-family: "Amatic";
+	font-size: 28px;
 }
