@@ -42,18 +42,28 @@ body {
 }
 
 .services div {
-  width:calc(90% / 3);
-  display:inline-block;
+  width: calc(90% / 3);
+  display: inline-block;
 	vertical-align: text-top;
 }
 
 #speaches-and-events {
   padding: 10px;
-	border-bottom: 1px solid black
+	border-bottom: 1px solid black;
+}
+
+#speaches-and-events .left {
+	border-right: 1px solid black;
+}
+
+#speaches-and-events div {
+	width: calc(90% / 2);
+  display: inline-block;
+	vertical-align: text-top;
 }
 
 #technologies {
-  padding: 10px;
+	color: #197219;
 }
 
 .footer {
