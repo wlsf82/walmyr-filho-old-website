@@ -36,7 +36,7 @@ a {
 }
 
 #presentation {
-	padding: 4%;
+	padding: 75px;
 	vertical-align: middle;
 }
 
@@ -53,7 +53,6 @@ a {
 
 #speaches-and-events {
   padding: 10px;
-	border-bottom: 1px solid black;
 }
 
 #speaches-and-events .left {
@@ -67,11 +66,11 @@ a {
 }
 
 #technologies {
-	color: #197219;
+	padding: 10px;
 }
 
 .footer {
-  padding: 10px;
+  padding: 5px;
 	background-color: #60CDD0;
 	border-radius:5px;
 	font-family: "Amatic";
