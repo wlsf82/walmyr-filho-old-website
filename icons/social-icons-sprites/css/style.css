@@ -1,0 +1,15 @@
+.icons a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+.icons a.twitter { background: url(../img/social-icons/twitter.png) left top no-repeat; }
+.icons a.facebook { background: url(../img/social-icons/facebook.png) left top no-repeat; }
+.icons a.github { background: url(../img/social-icons/github.png) left top no-repeat; }
+.icons a.googleplus { background: url(../img/social-icons/googleplus.png) left top no-repeat; }
+.icons a.youtube { background: url(../img/social-icons/youtube.png) left top no-repeat; }
+
+.icons a:hover { background-position: left -34px; }
