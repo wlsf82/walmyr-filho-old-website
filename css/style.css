@@ -61,7 +61,7 @@ h5 {
 
 .services {
 	background-color: #a2fdd1;
-	border-radius:10px;
+	border-radius:10px 10px 0 0;
 	line-height: 200%;
 }
 
@@ -70,6 +70,13 @@ h5 {
   display: inline-block;
 	vertical-align: text-top;
 	padding: 10px;
+}
+
+#blog {
+	padding: 50px;
+	background-color: #a2fdd1;
+	border-radius:0 0 10px 10px;
+	font-size: 20px;
 }
 
 #speaches-and-events {
@@ -94,7 +101,7 @@ h5 {
 
 .footer {
   padding: 1px;
-	background-color: #60CDD0;
+	background-color: #83E3C4;
 	border-radius:5px;
 	font-size: 50px;
 	margin-top: 10px;
