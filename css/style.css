@@ -1,7 +1,3 @@
-html {
-	font-size: 20px;
-}
-
 body {
 	padding: 50px;
 	text-align: center;
@@ -17,38 +13,63 @@ a {
 	src: url("../fonts/AmaticSC-Regular.ttf");
 }
 
+@font-face {
+	font-family: "Source Code Pro";
+	src: url("../fonts/source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Regular.ttf");
+}
+
+h1 {
+	font-family: "Amatic";
+	font-size: 50px;
+}
+
+h3 {
+	font-family: "Amatic";
+	font-size: 40px;
+}
+
+h4 {
+	font-family: "Amatic";
+	font-size: 30px;
+}
+
+p {
+	font-family: "Source Code Pro";
+	font-size: 20px;
+}
+
+h5 {
+	font-family: "Source Code Pro";
+	font-size: 20px;
+}
+
 .header {
   padding:5px;
 	position: fixed;
-  height: 120px;
+  height: 130px;
 	left: 0;
   top: 0;
   width: 100%;
   z-index: 100;
 	background-color: #60CDD0;
-	font-family: "Amatic";
-	font-size: 23px;
-}
-
-.content {
-	font-family: "Amatic";
-	font-size: 30px;
 }
 
 #presentation {
-	padding: 75px;
+	padding: 100px;
 	vertical-align: middle;
 }
 
 .services {
 	background-color: #a2fdd1;
 	border-radius:10px;
+	line-height: 200%;
 }
 
 .services div {
   width: calc(90% / 3);
   display: inline-block;
 	vertical-align: text-top;
+	padding: 10px;
 }
 
 #speaches-and-events {
@@ -65,14 +86,21 @@ a {
 	vertical-align: text-top;
 }
 
-#technologies {
-	padding: 10px;
+#technologies i {
+	font-size: 40px;
+	line-height: 3;
+	margin: 0 18px;
 }
 
 .footer {
-  padding: 5px;
+  padding: 1px;
 	background-color: #60CDD0;
 	border-radius:5px;
-	font-family: "Amatic";
-	font-size: 28px;
+	font-size: 50px;
+	margin-top: 10px;
+	line-height: 120%;
+}
+
+.footer p {
+	font-size: 24px;
 }
