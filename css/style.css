@@ -100,12 +100,11 @@ h5 {
 }
 
 .footer {
-  padding: 1px;
+  padding: 20px;
 	background-color: #83E3C4;
 	border-radius:5px;
 	font-size: 50px;
 	margin-top: 10px;
-	line-height: 120%;
 }
 
 .footer p {
