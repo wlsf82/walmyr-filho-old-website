@@ -34,7 +34,7 @@ h4 {
 }
 
 .content a:hover {
-	color: #1ACE1A;
+	color: #1ACEAA;
 	text-decoration: underline;
 }
 
@@ -76,7 +76,7 @@ h5 {
 }
 
 .services {
-	background-color: #a2fdd1;
+	background-color: #A2FDD1;
 	border-radius:10px 10px 0 0;
 	line-height: 200%;
 }
@@ -86,6 +86,22 @@ h5 {
   display: inline-block;
 	vertical-align: text-top;
 	padding: 10px;
+}
+
+.call-to-action a {
+	display: block;
+  height: 70px;
+  width: auto;
+	border-radius: 5%;
+	border-color: #1A6335;
+	background-color: #83E3C4;
+	font-family: "Source Code Pro";
+	font-size: 14px;
+}
+
+.call-to-action a:hover {
+	color: #FFFFF0;
+	text-decoration: underline;
 }
 
 #blog {
