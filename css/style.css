@@ -33,6 +33,11 @@ h4 {
 	font-size: 30px;
 }
 
+.content a:hover {
+	color: #1ACE1A;
+	text-decoration: underline;
+}
+
 #blog a {
 	font-family: "Source Code Pro";
 	font-size: 30px;
