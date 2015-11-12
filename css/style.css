@@ -148,7 +148,19 @@ h5 {
 	font-size: 24px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-device-width: 480px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	h3 {
+		font-size: 50px;
+	}
+
+	h4 {
+		font-size: 30px;
+	}
+
 	#presentation {
 		padding: 20px;
 		vertical-align: middle;
@@ -166,15 +178,14 @@ h5 {
 
 	.services p {
 		padding-right: 40px;
-		padding-left: 40px
+		padding-left: 40px;
+		font-size: 25px;
 	}
 
 	.call-to-action a {
 		display: none;
 		border-color: #A2FDD1;
 		background-color: #A2FDD1;
-		font-family: "Source Code Pro";
-		font-size: 14px;
 	}
 
 	#blog {
@@ -196,6 +207,14 @@ h5 {
 
 	#speaches-and-events div {
 		width: 100%;
+	}
+
+	#speaches-and-events h5 a {
+		font-size: 40px;
+	}
+
+	#speaches-and-events .right h5 a {
+		font-size: 15px;
 	}
 
 	.footer {
