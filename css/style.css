@@ -148,7 +148,7 @@ h5 {
 	font-size: 24px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 380px) {
 	h1 {
 		font-size: 50px;
 	}
