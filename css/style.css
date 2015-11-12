@@ -100,8 +100,8 @@ h5 {
 	border-radius: 5%;
 	border-color: #1A6335;
 	background-color: #83E3C4;
-	font-family: "Source Code Pro";
-	font-size: 14px;
+	font-family: "Amatic";
+	font-size: 20px;
 }
 
 .call-to-action a:hover {
@@ -111,7 +111,7 @@ h5 {
 
 #blog {
 	padding: 50px;
-	background-color: #a2fdd1;
+	background-color: #A2FDD1;
 	border-radius:0 0 10px 10px;
 	font-size: 20px;
 }
@@ -146,4 +146,63 @@ h5 {
 
 .footer p {
 	font-size: 24px;
+}
+
+@media only screen and (max-width: 500px) {
+	#presentation {
+		padding: 20px;
+		vertical-align: middle;
+	}
+
+	.services {
+		background-color: #A2FDD1;
+		border-radius:10px 10px 0 0;
+	}
+
+	.services div {
+	  width: 100%;
+		padding: 10px;
+	}
+
+	.services p {
+		padding-right: 40px;
+		padding-left: 40px
+	}
+
+	.call-to-action a {
+		display: none;
+		border-color: #A2FDD1;
+		background-color: #A2FDD1;
+		font-family: "Source Code Pro";
+		font-size: 14px;
+	}
+
+	#blog {
+		padding: 5px;
+		background-color: #A2FDD1;
+		border-radius:0 0 10px 10px;
+		font-size: 20px;
+	}
+
+	#blog p {
+		margin-left: 20px;
+		margin-right: 20px;
+		line-height: 200%
+	}
+
+	#speaches-and-events .left {
+		border-right: 1px solid #FFFFFF;
+	}
+
+	#speaches-and-events div {
+		width: 100%;
+	}
+
+	.footer {
+	  padding: 10px;
+		background-color: #83E3C4;
+		border-radius:5px;
+		font-size: 40px;
+		margin-top: 10px;
+	}
 }
