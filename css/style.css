@@ -154,7 +154,7 @@ h5 {
 
 @media only screen and (max-device-width: 380px) {
 	h1 {
-		font-size: 50px;
+		font-size: 350%
 	}
 
 	h3 {
@@ -170,6 +170,11 @@ h5 {
 		vertical-align: middle;
 	}
 
+	#presentation p {
+		font-size: 40px;
+		line-height: 150%;
+	}
+
 	.services {
 		background-color: #A2FDD1;
 		border-radius:10px 10px 0 0;
@@ -183,7 +188,8 @@ h5 {
 	.services p {
 		padding-right: 40px;
 		padding-left: 40px;
-		font-size: 25px;
+		font-size: 200%;
+		line-height: 150%;
 	}
 
 	.call-to-action a {
@@ -196,13 +202,17 @@ h5 {
 		padding: 5px;
 		background-color: #A2FDD1;
 		border-radius:0 0 10px 10px;
-		font-size: 20px;
+	}
+
+	#blog a {
+		font-size: 40px;
 	}
 
 	#blog p {
 		margin-left: 20px;
 		margin-right: 20px;
-		line-height: 200%
+		font-size: 40px;
+		line-height: 150%
 	}
 
 	#speaches-and-events .left {
@@ -214,19 +224,26 @@ h5 {
 	}
 
 	#speaches-and-events h5 a {
-		font-size: 40px;
+		font-size: 200%
 	}
 
-	#speaches-and-events .right h5 a {
-		font-size: 15px;
-	}
+	/*#speaches-and-events .right h5 a {
+		font-size: 40px;
+	}*/
 
 	.footer {
 	  padding: 10px;
 		background-color: #83E3C4;
 		border-radius:5px;
-		font-size: 40px;
 		margin-top: 10px;
+	}
+
+	.footer h4 {
+		font-size: 40px;
+	}
+
+	.footer p {
+		font-size: 70%;
 	}
 
 	.footer h4 span {
