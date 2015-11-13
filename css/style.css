@@ -148,6 +148,10 @@ h5 {
 	font-size: 24px;
 }
 
+.footer h4 span {
+	display: none;
+}
+
 @media only screen and (max-device-width: 380px) {
 	h1 {
 		font-size: 50px;
@@ -223,5 +227,9 @@ h5 {
 		border-radius:5px;
 		font-size: 40px;
 		margin-top: 10px;
+	}
+
+	.footer h4 span {
+		display: inline;
 	}
 }
