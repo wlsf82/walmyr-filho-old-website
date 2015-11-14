@@ -82,7 +82,7 @@ h5 {
 
 .services {
 	background-color: #A2FDD1;
-	border-radius:10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
 	line-height: 200%;
 }
 
@@ -139,7 +139,7 @@ h5 {
 .footer {
   padding: 20px;
 	background-color: #83E3C4;
-	border-radius:5px;
+	border-radius: 5px 5px 0 0;
 	font-size: 50px;
 	margin-top: 10px;
 }
@@ -150,6 +150,12 @@ h5 {
 
 .footer h4 span {
 	display: none;
+}
+
+.language {
+	background-color: #83E3C4;
+	border-radius:0 0 10px 10px;
+	padding: 10px;
 }
 
 @media only screen and (max-device-width: 380px) {
