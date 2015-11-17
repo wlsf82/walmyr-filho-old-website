@@ -255,7 +255,7 @@ h5 {
 	}
 
 	.footer p {
-		font-size: 70%;
+		font-size: 24px;
 	}
 
 	.footer h4 span {
@@ -267,6 +267,6 @@ h5 {
 	}
 
 	.language a {
-		font-size: 30px;
+		font-size: 24px;
 	}
 }
