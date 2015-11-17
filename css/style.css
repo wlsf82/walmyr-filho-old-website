@@ -159,6 +159,11 @@ h5 {
 	font-family: "Source Code Pro";
 }
 
+.language a:hover {
+	color: #1ACEAA;
+	text-decoration: underline;
+}
+
 @media only screen and (max-device-width: 380px) {
 	h1 {
 		font-size: 350%
