@@ -11,5 +11,6 @@
 .icons a.github { background: url(../img/social-icons/github.png) left top no-repeat; }
 .icons a.googleplus { background: url(../img/social-icons/googleplus.png) left top no-repeat; }
 .icons a.youtube { background: url(../img/social-icons/youtube.png) left top no-repeat; }
+.icons a.linkedin { background: url(../img/social-icons/linkedin.png) left top no-repeat; }
 
 .icons a:hover { background-position: left -34px; }
