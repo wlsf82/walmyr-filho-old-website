@@ -28,6 +28,11 @@ h1 a {
 	text-decoration: none;
 }
 
+h2 {
+	font-family: "Amatic";
+	font-size: 48px;
+}
+
 h3 {
 	font-family: "Amatic";
 	font-size: 40px;
@@ -78,6 +83,7 @@ h5 {
 #presentation {
 	padding: 100px;
 	vertical-align: middle;
+	line-height: 200%;
 }
 
 .services {
@@ -107,6 +113,47 @@ h5 {
 .call-to-action a:hover {
 	color: #FFFFF0;
 	text-decoration: underline;
+}
+
+#consultancy-page {
+	padding: 100px;
+	vertical-align: middle;
+	line-height: 200%;
+}
+
+#consultancy-page p {
+	font-family: "Source Code Pro";
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 200%;
+}
+
+#consultancy-page .call-to-action {
+	margin: auto;
+	horizontal-align: middle;
+  max-width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+.consultancy-content div {
+	width: calc(90% / 2);
+  display: inline-block;
+	vertical-align: text-top;
+}
+
+.consultancy-list {
+	display: inline-block;
+	text-align: left;
+}
+
+.consultancy-image img {
+	display: inline-block;
+	height: auto;
+  width: auto;
+  max-width: 600px;
+  max-height: 400px;
+	border-radius: 10px;
 }
 
 #blog {
@@ -210,6 +257,14 @@ h5 {
 		background-color: #A2FDD1;
 	}
 
+	.consultancy-content div {
+		width: 100%;
+	  display: inline-block;
+		vertical-align: text-top;
+		text-align: center;
+	}
+
+
 	#blog {
 		padding: 5px;
 		background-color: #A2FDD1;
@@ -238,10 +293,6 @@ h5 {
 	#speaches-and-events h5 a {
 		font-size: 200%
 	}
-
-	/*#speaches-and-events .right h5 a {
-		font-size: 40px;
-	}*/
 
 	.footer {
 	  padding: 10px;
