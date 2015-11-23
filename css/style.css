@@ -211,7 +211,7 @@ h5 {
 	text-decoration: underline;
 }
 
-@media only screen and (max-device-width: 380px) {
+@media only screen and (max-device-width: 799px) {
 	h1 {
 		font-size: 350%
 	}
