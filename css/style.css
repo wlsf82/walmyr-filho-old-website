@@ -257,6 +257,10 @@ h5 {
 		background-color: #A2FDD1;
 	}
 
+	#consultancy-page p {
+		font-size: 38px;
+	}
+
 	.consultancy-content div {
 		width: 100%;
 	  display: inline-block;
