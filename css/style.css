@@ -156,6 +156,38 @@ h5 {
 	border-radius: 10px;
 }
 
+#development-page {
+	padding: 100px;
+	vertical-align: middle;
+	line-height: 200%;
+}
+
+.test-types div {
+  width: calc(90% / 3);
+  display: inline-block;
+	vertical-align: text-top;
+	padding: 10px;
+}
+
+#development-page .call-to-action {
+	margin: auto;
+	horizontal-align: middle;
+  max-width: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+#development-page .call-to-action a {
+	display: block;
+  height: 100px;
+  width: 100px;
+	border-radius: 5%;
+	border-color: #1A6335;
+	background-color: #83E3C4;
+	font-family: "Amatic";
+	font-size: 20px;
+}
+
 #blog {
 	padding: 50px;
 	background-color: #A2FDD1;
