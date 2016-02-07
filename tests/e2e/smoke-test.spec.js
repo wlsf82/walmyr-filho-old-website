@@ -40,6 +40,8 @@ describe( 'Walmyr Personal Brand Web', function() {
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/consultoria.html');
     });
+
+    checkConsultancyPageMainElements();
   });
 
   it( 'Consultancy page - es', function() {
@@ -48,6 +50,8 @@ describe( 'Walmyr Personal Brand Web', function() {
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/es-consultoria.html');
     });
+
+    checkConsultancyPageMainElements();
   });
 
   it( 'Consultancy page - en', function() {
@@ -56,6 +60,8 @@ describe( 'Walmyr Personal Brand Web', function() {
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/consultancy.html');
     });
+
+    checkConsultancyPageMainElements();
   });
 
   it( 'Development page - pt', function() {
@@ -102,6 +108,22 @@ describe( 'Walmyr Personal Brand Web', function() {
       blog: $('.content #blog'),
       speachesAndEvents: $('.content #speaches-and-events'),
       technologies: $('.content #technologies'),
+      footer: $('.footer'),
+    }
+
+    for (var key in mainElements) {
+      expect(mainElements[key].isDisplayed()).toBe(true);
+    }
+  }
+
+  function checkConsultancyPageMainElements() {
+    var mainElements = {
+      header: $('.header'),
+      content: $('.content'),
+      consultancyPage: $('.content #consultancy-page'),
+      consultancyDescription: $('.content #consultancy-page .consultancy-description'),
+      consultancyDescription: $('.content #consultancy-page .consultancy-content'),
+      consultancyDescription: $('.content #consultancy-page .call-to-action'),
       footer: $('.footer'),
     }
 
