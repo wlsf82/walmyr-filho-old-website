@@ -70,6 +70,8 @@ describe( 'Walmyr Personal Brand Web', function() {
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/desenvolvimento.html');
     });
+
+    checkDevelopmentPageMainElements();
   });
 
   it( 'Development page - es', function() {
@@ -78,6 +80,8 @@ describe( 'Walmyr Personal Brand Web', function() {
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/desarrollo.html');
     });
+
+    checkDevelopmentPageMainElements();
   });
 
   it( 'Development page - en', function() {
@@ -86,6 +90,8 @@ describe( 'Walmyr Personal Brand Web', function() {
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/development.html');
     });
+
+    checkDevelopmentPageMainElements();
   });
 
   it ('Page not found', function() {
