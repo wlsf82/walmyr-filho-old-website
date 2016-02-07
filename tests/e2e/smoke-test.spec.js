@@ -109,6 +109,7 @@ describe( 'Walmyr Personal Brand Web', function() {
       speachesAndEvents: $('.content #speaches-and-events'),
       technologies: $('.content #technologies'),
       footer: $('.footer'),
+      language: $('.language'),
     }
 
     for (var key in mainElements) {
@@ -122,9 +123,28 @@ describe( 'Walmyr Personal Brand Web', function() {
       content: $('.content'),
       consultancyPage: $('.content #consultancy-page'),
       consultancyDescription: $('.content #consultancy-page .consultancy-description'),
-      consultancyDescription: $('.content #consultancy-page .consultancy-content'),
-      consultancyDescription: $('.content #consultancy-page .call-to-action'),
+      consultancyContent: $('.content #consultancy-page .consultancy-content'),
+      consultancyCTA: $('.content #consultancy-page .call-to-action'),
       footer: $('.footer'),
+      language: $('.language'),
+    }
+
+    for (var key in mainElements) {
+      expect(mainElements[key].isDisplayed()).toBe(true);
+    }
+  }
+
+  function checkDevelopmentPageMainElements() {
+    var mainElements = {
+      header: $('.header'),
+      developmentContent: $('.development-content'),
+      developmentPage: $('.development-content #development-page'),
+      testTypes: $('.development-content #development-page .test-types'),
+      unitTests: $('.development-content #development-page .test-types #unit-tests'),
+      integrationTests: $('.development-content #development-page .test-types #integration-tests'),
+      uiTests: $('.development-content #development-page .test-types #ui-tests'),
+      footer: $('.footer'),
+      language: $('.language'),
     }
 
     for (var key in mainElements) {
