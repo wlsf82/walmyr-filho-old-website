@@ -3,6 +3,10 @@ body {
 	text-align: center;
 }
 
+#appear {
+	background-color: #60CDD0;
+}
+
 a {
 	color: #197219;
 	text-decoration: none;
