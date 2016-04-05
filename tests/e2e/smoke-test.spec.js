@@ -118,9 +118,7 @@ describe( 'Walmyr Personal Brand Web', function() {
       language: $('.language'),
     }
 
-    for (var key in mainElements) {
-      expect(mainElements[key].isDisplayed()).toBe(true);
-    }
+    checkMainElements(mainElements);
   }
 
   function checkConsultancyPageMainElements() {
@@ -135,9 +133,7 @@ describe( 'Walmyr Personal Brand Web', function() {
       language: $('.language'),
     }
 
-    for (var key in mainElements) {
-      expect(mainElements[key].isDisplayed()).toBe(true);
-    }
+    checkMainElements(mainElements);
   }
 
   function checkDevelopmentPageMainElements() {
@@ -153,6 +149,10 @@ describe( 'Walmyr Personal Brand Web', function() {
       language: $('.language'),
     }
 
+    checkMainElements(mainElements);
+  }
+
+  function checkMainElements(mainElements) {
     for (var key in mainElements) {
       expect(mainElements[key].isDisplayed()).toBe(true);
     }
