@@ -1,6 +1,6 @@
 /**
-* @file protractor.conf.js
-*/
+ * @file protractor.conf.js
+ */
 
 var SpecReporter = require('jasmine-spec-reporter');
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
