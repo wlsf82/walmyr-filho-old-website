@@ -94,7 +94,7 @@ describe( 'Walmyr Personal Brand Web', function() {
     checkDevelopmentPageMainElements();
   });
 
-  it ('Page not found', function() {
+  it ( 'Page not found', function() {
     browser.get('jsldf');
 
     var pageNotFoundImage = $('img[src="./img/404.jpg"]');
