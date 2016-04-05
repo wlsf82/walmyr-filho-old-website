@@ -1,6 +1,6 @@
 /**
-* @file smoke-test.spec.js
-*/
+ * @file smoke-test.spec.js
+ */
 
 describe( 'Walmyr Personal Brand Web', function() {
 
