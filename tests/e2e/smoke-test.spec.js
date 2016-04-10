@@ -2,11 +2,17 @@
  * @file smoke-test.spec.js
  */
 
+var PageObject = require('./page-object');
+
 describe( 'Walmyr Personal Brand Web', function() {
 
-  it( 'Home page - pt', function() {
-    browser.get('/');
+  var pageObject = new PageObject();
 
+  beforeEach(function() {
+    browser.get('/');
+  });
+
+  it( 'Home page - pt', function() {
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/');
     });
@@ -15,7 +21,7 @@ describe( 'Walmyr Personal Brand Web', function() {
   });
 
   it( 'Home page - es', function() {
-    browser.get('es-index.html');
+    pageObject.spanishLink.click();
 
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/es-index.html');
@@ -25,7 +31,7 @@ describe( 'Walmyr Personal Brand Web', function() {
   });
 
   it( 'Home page - en', function() {
-    browser.get('en-index.html');
+    pageObject.englishLink.click();
 
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/en-index.html');
@@ -35,7 +41,7 @@ describe( 'Walmyr Personal Brand Web', function() {
   });
 
   it( 'Consultancy page - pt', function() {
-    browser.get('/consultoria.html');
+    pageObject.consultancyPTLink.click();
 
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/consultoria.html');
@@ -45,7 +51,8 @@ describe( 'Walmyr Personal Brand Web', function() {
   });
 
   it( 'Consultancy page - es', function() {
-    browser.get('/es-consultoria.html');
+    pageObject.spanishLink.click();
+    pageObject.consultancyESLink.click();
 
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/es-consultoria.html');
@@ -55,7 +62,8 @@ describe( 'Walmyr Personal Brand Web', function() {
   });
 
   it( 'Consultancy page - en', function() {
-    browser.get('/consultancy.html');
+    pageObject.englishLink.click();
+    pageObject.consultancyENLink.click();
 
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/consultancy.html');
@@ -65,7 +73,7 @@ describe( 'Walmyr Personal Brand Web', function() {
   });
 
   it( 'Development page - pt', function() {
-    browser.get('/desenvolvimento.html');
+    pageObject.developmentPTLink.click();
 
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/desenvolvimento.html');
@@ -75,7 +83,8 @@ describe( 'Walmyr Personal Brand Web', function() {
   });
 
   it( 'Development page - es', function() {
-    browser.get('/desarrollo.html');
+    pageObject.spanishLink.click();
+    pageObject.developmentESLink.click();
 
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/desarrollo.html');
@@ -85,7 +94,8 @@ describe( 'Walmyr Personal Brand Web', function() {
   });
 
   it( 'Development page - en', function() {
-    browser.get('/development.html');
+    pageObject.englishLink.click();
+    pageObject.developmentENLink.click();
 
     browser.getCurrentUrl().then(function(url) {
       expect(url).toEqual('http://walmyr-filho.com/development.html');
