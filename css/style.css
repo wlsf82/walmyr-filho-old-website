@@ -213,6 +213,24 @@ h5 {
 	vertical-align: text-top;
 }
 
+#book {
+  padding: 50px;
+	background-color: #A2FDD1;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 30px;
+}
+
+#book a {
+	font-family: "Source Code Pro";
+	font-size: 30px;
+}
+
+#book p {
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 200%
+}
+
 #technologies i {
 	font-size: 40px;
 	line-height: 3;
@@ -344,6 +362,24 @@ h5 {
 
 	#speaches-and-events h5 a {
 		font-size: 200%
+	}
+
+	#book {
+	  padding: 10px;
+		background-color: #A2FDD1;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 10px;
+	}
+
+	#book a {
+		font-size: 40px;
+	}
+
+	#book p {
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: 40px;
+		line-height: 150%
 	}
 
 	.footer {
