@@ -74,13 +74,13 @@ h5 {
 }
 
 .header {
-  padding:5px;
+  	padding:5px;
 	position: fixed;
-  height: 130px;
+  	height: 130px;
 	left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 100;
+  	top: 0;
+  	width: 100%;
+  	z-index: 100;
 	background-color: #60CDD0;
 }
 
@@ -97,16 +97,16 @@ h5 {
 }
 
 .services div {
-  width: calc(90% / 3);
-  display: inline-block;
+  	width: calc(90% / 3);
+  	display: inline-block;
 	vertical-align: text-top;
 	padding: 10px;
 }
 
 .call-to-action a {
 	display: block;
-  height: 70px;
-  width: auto;
+  	height: 70px;
+  	width: auto;
 	border-radius: 5%;
 	border-color: #1A6335;
 	background-color: #83E3C4;
@@ -135,14 +135,14 @@ h5 {
 #consultancy-page .call-to-action {
 	margin: auto;
 	horizontal-align: middle;
-  max-width: 100px;
-  padding: 5px;
-  text-align: center;
+  	max-width: 100px;
+  	padding: 5px;
+  	text-align: center;
 }
 
 .consultancy-content div {
 	width: calc(90% / 2);
-  display: inline-block;
+  	display: inline-block;
 	vertical-align: text-top;
 }
 
@@ -154,9 +154,9 @@ h5 {
 .consultancy-image img {
 	display: inline-block;
 	height: auto;
-  width: auto;
-  max-width: 600px;
-  max-height: 400px;
+  	width: auto;
+  	max-width: 600px;
+  	max-height: 400px;
 	border-radius: 10px;
 }
 
@@ -167,8 +167,8 @@ h5 {
 }
 
 .test-types div {
-  width: calc(90% / 3);
-  display: inline-block;
+  	width: calc(90% / 3);
+  	display: inline-block;
 	vertical-align: text-top;
 	padding: 10px;
 }
@@ -176,15 +176,15 @@ h5 {
 #development-page .call-to-action {
 	margin: auto;
 	horizontal-align: middle;
-  max-width: 100px;
-  padding: 20px;
-  text-align: center;
+  	max-width: 100px;
+  	padding: 20px;
+  	text-align: center;
 }
 
 #development-page .call-to-action a {
 	display: block;
-  height: 100px;
-  width: 100px;
+  	height: 100px;
+  	width: 100px;
 	border-radius: 5%;
 	border-color: #1A6335;
 	background-color: #83E3C4;
@@ -209,12 +209,12 @@ h5 {
 
 #speaches-and-events div {
 	width: calc(90% / 2);
-  display: inline-block;
+  	display: inline-block;
 	vertical-align: text-top;
 }
 
 #book {
-  padding: 50px;
+  	padding: 50px;
 	background-color: #A2FDD1;
 	border-radius: 5px 5px 5px 5px;
 	font-size: 30px;
@@ -238,7 +238,7 @@ h5 {
 }
 
 .footer {
-  padding: 20px;
+	padding: 20px;
 	background-color: #83E3C4;
 	border-radius: 5px 5px 0 0;
 	font-size: 50px;
@@ -317,7 +317,7 @@ h5 {
 
 	.consultancy-content div {
 		width: 100%;
-	  display: inline-block;
+	  	display: inline-block;
 		vertical-align: text-top;
 		text-align: center;
 	}
@@ -329,7 +329,7 @@ h5 {
 
 	#development-page div {
 		width: 100%;
-	  display: inline-block;
+	  	display: inline-block;
 		vertical-align: text-top;
 		text-align: center;
 	}
@@ -365,7 +365,7 @@ h5 {
 	}
 
 	#book {
-	  padding: 10px;
+	  	padding: 10px;
 		background-color: #A2FDD1;
 		border-radius: 5px 5px 5px 5px;
 		margin-top: 10px;
@@ -384,7 +384,7 @@ h5 {
 	}
 
 	.footer {
-	  padding: 10px;
+	  	padding: 10px;
 		background-color: #83E3C4;
 		border-radius: 5px 5px 0 0;
 		margin-top: 10px;
