@@ -1,11 +1,6 @@
-/**
- * @file smoke-test.spec.js
- */
-
 var PageObject = require('./page-object');
 
 describe( 'Walmyr Personal Brand Web', function() {
-
   var pageObject = new PageObject();
 
   beforeEach(function() {
@@ -167,5 +162,4 @@ describe( 'Walmyr Personal Brand Web', function() {
       expect(mainElements[key].isDisplayed()).toBe(true);
     }
   }
-
 });

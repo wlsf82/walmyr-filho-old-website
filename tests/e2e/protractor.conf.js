@@ -1,7 +1,3 @@
-/**
- * @file protractor.conf.js
- */
-
 var SpecReporter = require('jasmine-spec-reporter');
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 
@@ -10,15 +6,11 @@ module.exports.config = {
   baseUrl: 'http://walmyr-filho.com/',
 
   capabilities: { 'browserName': 'chrome' },
-  framework: 'jasmine2',
   directConnect: true,
 
-  // Here you will set things that have to happen before start testing.
   onPrepare: function() {
-    // Used for non-angular apps
     browser.ignoreSynchronization = true;
 
-    // Add jasmine spec reporter
     jasmine.getEnv().addReporter(new SpecReporter({
       displayFailuresSummary: true,
       displayFailedSpec: true,
