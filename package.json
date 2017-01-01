@@ -1,0 +1,23 @@
+{
+  "name": "walmyr-filho-personal-brand",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "scripts": {
+    "test": "./node_modules/.bin/protractor tests/e2e/protractor.conf.js",
+    "update-webdriver": "./node_modules/.bin/webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/wlsf82/walmyr-filho-personal-brand.git"
+  },
+  "author": "Walmyr Filho <wlsf82@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/wlsf82/walmyr-filho-personal-brand/issues"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^2.7.0",
+    "protractor": "^4.0.14",
+    "protractor-jasmine2-screenshot-reporter": "^0.3.2"
+  }
+}
