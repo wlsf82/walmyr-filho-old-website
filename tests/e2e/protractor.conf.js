@@ -5,7 +5,14 @@ module.exports.config = {
   specs: ['smoke-test.spec.js'],
   baseUrl: 'http://walmyr-filho.com/',
 
-  capabilities: { 'browserName': 'chrome' },
+  capabilities: {
+      'browserName': 'chrome',
+      'chromeOptions': {
+          'args': [
+              '--headless'
+          ]
+      }
+  },
   directConnect: true,
 
   onPrepare: function() {

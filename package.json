@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal website",
   "scripts": {
-    "test": "./node_modules/.bin/protractor tests/e2e/protractor.conf.js",
+    "test": "npm run update-webdriver && ./node_modules/.bin/protractor tests/e2e/protractor.conf.js",
     "update-webdriver": "./node_modules/.bin/webdriver-manager update"
   },
   "repository": {
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "jasmine-spec-reporter": "^2.7.0",
-    "protractor": "^4.0.14",
+    "protractor": "^5.1.2",
     "protractor-jasmine2-screenshot-reporter": "^0.3.2"
   }
 }
