@@ -1,6 +1,6 @@
 var images = [
-  './img/404_1.png',
-  './img/404_2.png'
+  '../assets/img/404_1.png',
+  '../assets/img/404_2.png'
 ];
 
 style404ImageRandomly();

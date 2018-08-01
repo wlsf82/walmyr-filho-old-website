@@ -14,12 +14,12 @@ a {
 
 @font-face {
 	font-family: "Amatic";
-	src: url("../fonts/AmaticSC-Regular.ttf");
+	src: url("../assets/fonts/AmaticSC-Regular.ttf");
 }
 
 @font-face {
 	font-family: "Source Code Pro";
-	src: url("../fonts/SourceCodePro-Regular.ttf");
+	src: url("../assets/fonts/SourceCodePro-Regular.ttf");
 }
 
 h1 {
