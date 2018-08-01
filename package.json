@@ -1,7 +1,7 @@
 {
   "name": "walmyr-filho-old-website",
-  "version": "1.0.0",
   "description": "Walmyr Filho old website",
+  "version": "1.0.0",
   "scripts": {
     "test": "npm run backstop:test",
     "backstop:test": "source ./setup.sh && rm -rf test/backstop_data/bitmaps_test && backstop test --config=test/backstopSettings.js",
