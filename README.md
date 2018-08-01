@@ -1,15 +1,23 @@
-# Walmyr Filho's personal brand
+# Walmyr Filho's old website
 
-This is a project for Walmyr Filho's brand/website.
+Walmyr Filho's old website
+
+## Pre-requirements
+
+[Node.js](https://nodejs.org/en/) v8+
 
 ## Installation
 
 `npm i`
 
-## Updating webdriver-manager
+## Running the tests
 
-`npm run update-webdriver`
+Run `npm t` to run the Backstop screenshot comparison tests.
 
-## Running e2e tests
+## Approving bitmaps as references
 
-`npm test`
+Run `npm run backstop:approve` to approve bitmaps as references to be used during screenshot comparison tests.
+
+___
+
+Made with 💚 by [Walmyr Filho](http://walmyr-filho.com)
