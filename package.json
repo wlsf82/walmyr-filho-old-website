@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Walmyr Filho old website",
   "scripts": {
-    "test": "npm run update-webdriver && ./node_modules/.bin/protractor tests/e2e/protractor.conf.js",
-    "update-webdriver": "./node_modules/.bin/webdriver-manager update"
+    "test": "npm run backstop:test",
+    "backstop:test": "source ./setup.sh && rm -rf test/backstop_data/bitmaps_test && backstop test --config=test/backstopSettings.js",
+    "backstop:approve": "source ./setup.sh && backstop approve --config=test/backstopSettings.js"
   },
   "repository": {
     "type": "git",
