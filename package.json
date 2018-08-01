@@ -1,16 +1,16 @@
 {
-  "name": "walmyr-filho-personal-brand",
+  "name": "walmyr-filho-old-website",
   "version": "1.0.0",
-  "description": "Personal website",
+  "description": "Walmyr Filho old website",
   "scripts": {
     "test": "npm run update-webdriver && ./node_modules/.bin/protractor tests/e2e/protractor.conf.js",
     "update-webdriver": "./node_modules/.bin/webdriver-manager update"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/wlsf82/walmyr-filho-personal-brand.git"
+    "url": "https://gitlab.com/wlsf82/walmyr-filho-personal-brand.git"
   },
-  "author": "Walmyr Filho <wlsf82@gmail.com>",
+  "author": "Walmyr Filho <wlsf82@gmail.com> (http://walmyr-filho.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://gitlab.com/wlsf82/walmyr-filho-personal-brand/issues"
