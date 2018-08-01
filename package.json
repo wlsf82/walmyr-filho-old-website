@@ -16,8 +16,8 @@
     "url": "https://gitlab.com/wlsf82/walmyr-filho-personal-brand/issues"
   },
   "devDependencies": {
-    "jasmine-spec-reporter": "^2.7.0",
-    "protractor": "^5.1.2",
-    "protractor-jasmine2-screenshot-reporter": "^0.3.2"
+    "ajv": "^6.5.2",
+    "backstopjs": "^3.5.2",
+    "react-dom": "^15.6.2"
   }
 }
