@@ -2,6 +2,8 @@
 
 Walmyr Filho's old website
 
+⚠️ This project has been deprecated. ⚠️
+
 ## Pre-requirements
 
 [Node.js](https://nodejs.org/en/) v8+
