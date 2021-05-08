@@ -2,7 +2,7 @@
 
 Walmyr Filho's old website
 
-⚠️ This project has been deprecated. ⚠️
+⚠️ **This project has been deprecated.** ⚠️
 
 ## Pre-requirements
 
