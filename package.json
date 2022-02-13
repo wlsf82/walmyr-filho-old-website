@@ -17,7 +17,7 @@
     "url": "https://gitlab.com/wlsf82/walmyr-filho-personal-brand/issues"
   },
   "devDependencies": {
-    "ajv": "^6.5.2",
+    "ajv": "^6.12.3",
     "backstopjs": "^3.5.2",
     "react-dom": "^15.6.2"
   }
